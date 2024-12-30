@@ -7,11 +7,11 @@ import { HeroVideoDialog } from '../ui/hero-video-dialog';
 
 export default function Herosection() {
     return (
-        <div className=" relative h-screen pt-36 ">
+        <div className=" relative h-[140vh] pt-36 mb-80">
             <div className='absolute   px-7 top-0 left-0 -z-10 h-full w-full '>
                 <icons.lightarrays className='w-full absolute mt-[-5rem] md:mt-[-15rem] xl:mt-[-9rem] '></icons.lightarrays>
                 <div className="   rounded-b-3xl border h-full w-full bg-custom-gradient"></div>
-                <Image alt='cloud' height={100} width={100} src={'/Cloud.png'} className='rounded-b-3xl absolute -mb-24 -left-10 w-full h-auto bottom-0'></Image>
+                <Image alt='cloud' height={100} width={100} src={'/Cloud.png'} className='rounded-b-3xl absolute   w-full h-auto bottom-0'></Image>
                 <div className=' bg-black/5 absolute top-0 rounded-b-3xl w-[96.3%] h-full z-[0]'></div>
             </div>
 
