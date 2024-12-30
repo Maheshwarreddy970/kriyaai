@@ -1,9 +1,9 @@
 import React from 'react'
-import { HeroVideoDialog } from '../ui/hero-video-dialog'
 import { icons } from '../../icons/index';
 import Image from 'next/image';
 import data from '@/data/index.json';
 import InteractiveHoverButton from './getstartedbutton';
+import { HeroVideoDialog } from '../ui/hero-video-dialog';
 
 export default function Herosection() {
     return (
