@@ -1,3 +1,4 @@
+import Calltoaction from "@/components/landingpage/calltoaction";
 import Faq from "@/components/landingpage/faq";
 import Footer from "@/components/landingpage/footer";
 import Herosection from "@/components/landingpage/hero-section";
@@ -11,6 +12,7 @@ export default function Home() {
      <StaticLogoCloud></StaticLogoCloud>
      <Testimonials></Testimonials>
      <Faq></Faq>
+     <Calltoaction></Calltoaction>
      <Footer></Footer>
     </main>
   );
