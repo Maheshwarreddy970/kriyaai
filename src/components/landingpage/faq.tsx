@@ -1,8 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import React, { useState, ReactElement } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { ReactElement } from "react";
+import { motion } from "framer-motion";
 
 // Define FAQ item type
 interface FaqItem {
@@ -48,7 +48,7 @@ const Faq: React.FC = () => {
                     FAQ
                 </p>
                 <p className="text-3xl text-center sm:text-5xl  font-bold">
-                    Got Questions? We've Got Answers!
+                    Got Questions? Weve Got Answers!
                 </p>
                 <p className="text-wrap text-center text-sm sm:text-base">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem reiciendis placeat possimus error officia quis, rem nihil dolor molestias illo!
@@ -83,8 +83,6 @@ interface AccordionItemProps extends React.HTMLAttributes<HTMLDivElement> {
 const AccordionItem: React.FC<AccordionItemProps> = ({
     question,
     answer,
-    className,
-    ...props
 }) => {
 
     return (

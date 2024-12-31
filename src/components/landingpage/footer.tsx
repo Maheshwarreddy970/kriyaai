@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -7,14 +8,14 @@ const Footer = () => {
 
                 <div>
                     <div className="mr-0 md:mr-4 md:flex mb-4">
-                        <a
+                        <Link
                             className="font-normal flex space-x-2 items-center  mr-4 text-black px-2 py-1 relative z-20"
                             href="/"
                         >
                             <div className="flex items-center justify-center rounded-full border shadow-md  overflow-hidden ">
                                 <img src="/logo.png" className="w-9 h-9 font-semibold" alt="Logo" />
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="mt-2 ml-2">
                         © copyright Kira AIs 2024. All rights reserved.

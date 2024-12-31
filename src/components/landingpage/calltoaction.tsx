@@ -1,7 +1,6 @@
 import React from 'react'
 import { icons } from '../../icons/index';
 import Image from 'next/image';
-import data from '@/data/index.json';
 import InteractiveHoverButton from './getstartedbutton';
 
 export default function Calltoaction() {
