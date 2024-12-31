@@ -1,7 +1,10 @@
+import { Star } from "lucide-react";
+
 const TestimonialHeader = () => (
     <div className="flex flex-col items-center justify-center gap-5 py-12">
         <div className="max-w-3xl md:px-0 px-8 flex flex-col items-center gap-4">
-            <p className="rounded-2xl shadow px-3 py-2 font-medium text-sm border text-center bg-white dark:bg-black">
+            <p className="rounded-2xl flex gap-2 items-center shadow px-3 py-2 font-medium text-sm border text-center bg-white dark:bg-black">
+            <Star  className=" size-4"/>
                 Words from Others
             </p>
             <h1 className="mb-1 text-center text-2xl font-semibold tracking-tighter text-gray-900 md:text-4xl dark:text-gray-100">

@@ -4,6 +4,11 @@ import Image from 'next/image';
 import data from '@/data/index.json';
 import InteractiveHoverButton from './getstartedbutton';
 import { HeroVideoDialog } from '../ui/hero-video-dialog';
+import facebookicon from '@/../public/facebookicon.png';
+import linkedinicon from '@/../public/instagramicon.png';
+import whatsappicon from '@/../public/whatsappicon.png';
+import xicon from '@/../public/xicon.png';
+
 
 export default function Herosection() {
     return (
@@ -26,14 +31,23 @@ export default function Herosection() {
                     <InteractiveHoverButton text='Get Started' />
                 </div>
             </div>
-            <div className=" mt-20 max-w-5xl mx-auto  relative bg-black/5 shadow-inner shadow-white backdrop-blur-lg p-5 rounded-xl">
-                <HeroVideoDialog
-                    className="dark:hidden block"
-                    animationStyle="from-center"
-                    videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
-                    thumbnailSrc="/videoimage.avif"
-                    thumbnailAlt="Hero Video"
-                />
+            <div className=' relative mt-20 max-w-5xl mx-auto'>
+                <div
+
+                    className="   relative  bg-black/5 shadow-inner shadow-white backdrop-blur-lg p-5 rounded-xl">
+                    <HeroVideoDialog
+
+                        className="dark:hidden block"
+                        animationStyle="from-center"
+                        videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+                        thumbnailSrc="/videoimage.avif"
+                        thumbnailAlt="Hero Video"
+                    />
+                </div>
+                <Image src={facebookicon} alt='facebookicon' className=' top-20 -rotate-[20deg] -z-10 -left-20 p-1.5 bg-black/10 backdrop-blur-md   absolute rounded-3xl object-cover size-24 shadow-xl border '></Image>
+                <Image src={linkedinicon} alt='linkedinicon' className=' top-48 rotate-[20deg] -z-10 -right-20 p-1.5 bg-black/10 backdrop-blur-md   absolute rounded-3xl object-cover size-24 shadow-xl border '></Image>
+                <Image src={whatsappicon} alt='whatsappicon' className=' bottom-10 -rotate-[10deg] z-10 -right-12 p-1.5 bg-black/10 backdrop-blur-md   absolute rounded-3xl object-cover size-24 shadow-xl border '></Image>
+                <Image src={xicon} alt='xicon' className=' bottom-44 rotate-[10deg] z-10 -left-12 p-1.5 bg-black/10 backdrop-blur-md   absolute rounded-3xl object-cover size-24 shadow-xl border '></Image>
             </div>
         </div>
     )

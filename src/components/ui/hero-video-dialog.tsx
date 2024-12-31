@@ -79,7 +79,9 @@ export function HeroVideoDialog({
   const selectedAnimation = animationVariants[animationStyle];
 
   return (
-    <div className={cn("relative", className)}>
+    <div 
+    
+    className={cn("relative", className)}>
       <div
         className="group relative cursor-pointer"
         onClick={() => setIsVideoOpen(true)}

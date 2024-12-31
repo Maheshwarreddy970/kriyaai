@@ -1,136 +1,168 @@
 {
-    "landingPage": {
-      "title": "Kira AI - Automate Your Social Media Interactions",
-      "sections": [
-        {
-          "id": "hero",
-          "type": "Hero",
-          "content": {
-            "heading": "Revolutionize Your Social Media Engagement",
-            "subheading": "Answer comments and DMs automatically, quickly, and effortlessly with Kira AI. Let it take care of all your social media interactions while you focus on what matters most.",
-            "heroTagline": "AI for Social Media Management",
-            "ctaButton": {
-              "text": "Get Started Now",
+  "landingPage": {
+    "title": "Kira AI - Automate Your Social Media Interactions",
+    "sections": [
+      {
+        "id": "hero",
+        "type": "Hero",
+        "content": {
+          "heading": "Revolutionize Your Social Media Engagement",
+          "subheading": "Answer comments and DMs automatically, quickly, and effortlessly with Kira AI.Let it take care of all your social media interactions while you focus on what matters most.",
+          "heroTagline": "AI for Social Media Management",
+          "ctaButton": {
+            "text": "Get Started Now",
+            "link": "/signup"
+          },
+          "image": "/images/hero-image.png"
+        }
+      },
+      {
+        "id": "testimonials",
+        "type": "Testimonials",
+        "content": {
+          "heading": "What Our Users Say",
+          "testimonials": [
+            {
+              "name": "Jane Doe",
+              "role": "Social Media Manager",
+              "quote": "Kira AI has saved me countless hours by automating my DMs. It's a game-changer!",
+              "image": "/images/testimonial1.jpg"
+            },
+            {
+              "name": "John Smith",
+              "role": "Content Creator",
+              "quote": "I love how Kira AI makes my responses feel human. My audience engagement has doubled!",
+              "image": "/images/testimonial2.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": "features",
+        "type": "Features",
+        "content": {
+          "heading": "Key Features",
+          "features": [
+            {
+              "title": "Full Automatic AI Responses",
+              "description": "Kira AI responds to messages instantly and accurately, saving you time and effort.",
+              "icon": "/icons/automatic-responses.svg"
+            },
+            {
+              "title": "Draft Message Suggestions",
+              "description": "Let Kira AI draft responses for you to review and send manually.",
+              "icon": "/icons/draft-suggestions.svg"
+            },
+            {
+              "title": "Out of Office Hours",
+              "description": "Schedule when Kira AI is active and postpone responses to the next business day.",
+              "icon": "/icons/out-of-office.svg"
+            },
+            {
+              "title": "Human-like Delayed Responses",
+              "description": "Set a custom response delay to make interactions feel natural.",
+              "icon": "/icons/delayed-responses.svg"
+            }
+          ]
+        }
+      },
+      {
+        "id": "pricing",
+        "type": "Pricing",
+        "content": {
+          "heading": "Choose Your Plan",
+          "pricingTiers": [
+            {
+              "tier": "Basic",
+              "price": "$19/month",
+              "features": [
+                "50 AI responses per day",
+                "Draft message suggestions",
+                "Basic analytics"
+              ],
+              "ctaButton": {
+                "text": "Start Basic",
+                "link": "/signup/basic"
+              }
+            },
+            {
+              "tier": "Pro",
+              "price": "$49/month",
+              "features": [
+                "Unlimited AI responses",
+                "Advanced analytics",
+                "Out of office scheduling",
+                "Priority support"
+              ],
+              "ctaButton": {
+                "text": "Go Pro",
+                "link": "/signup/pro"
+              }
+            },
+            {
+              "tier": "Enterprise",
+              "price": "$99/month",
+              "features": [
+                "Custom integrations",
+                "Team collaboration tools",
+                "Dedicated account manager"
+              ],
+              "ctaButton": {
+                "text": "Contact Sales",
+                "link": "/contact"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "faq",
+        "type": "FAQ",
+        "content": {
+          "heading": "Frequently Asked Questions",
+          "questions": [
+            {
+              "question": "What is Kira AI?",
+              "answer": "Kira AI is an advanced tool that automates responses to comments and DMs on social media platforms like TikTok, Instagram, YouTube, and Facebook."
+            },
+            {
+              "question": "Can I manually approve AI-generated responses?",
+              "answer": "Yes, you can choose to review and manually send AI-drafted responses for added control."
+            },
+            {
+              "question": "What platforms does Kira AI support?",
+              "answer": "Kira AI supports TikTok, Instagram, YouTube, and Facebook."
+            },
+            {
+              "question": "How does the delayed response feature work?",
+              "answer": "You can set a custom delay range for responses to make them appear more human-like. The AI randomly selects a time within this range to respond."
+            },
+            {
+              "question": "What happens during out-of-office hours?",
+              "answer": "During out-of-office hours, Kira AI pauses automatic responses and resumes them the next day."
+            }
+          ]
+        }
+      },
+      {
+        "id": "cta",
+        "type": "CallToAction",
+        "content": {
+          "heading": "Ready to Transform Your Social Media?",
+          "subheading": "Sign up today and experience the power of AI-driven engagement!",
+          "ctaButtons": [
+            {
+              "text": "Get Started",
               "link": "/signup"
             },
-            "image": "/images/hero-image.png"
-          }
-        },
-        {
-          "id": "testimonials",
-          "type": "Testimonials",
-          "content": {
-            "heading": "What Our Users Say",
-            "testimonials": [
-              {
-                "name": "Jane Doe",
-                "role": "Social Media Manager",
-                "quote": "Kira AI has saved me countless hours by automating my DMs. It's a game-changer!",
-                "image": "/images/testimonial1.jpg"
-              },
-              {
-                "name": "John Smith",
-                "role": "Content Creator",
-                "quote": "I love how Kira AI makes my responses feel human. My audience engagement has doubled!",
-                "image": "/images/testimonial2.jpg"
-              }
-            ]
-          }
-        },
-        {
-          "id": "features",
-          "type": "Features",
-          "content": {
-            "heading": "Key Features",
-            "features": [
-              {
-                "title": "Full Automatic AI Responses",
-                "description": "Kira AI responds to messages instantly and accurately, saving you time and effort.",
-                "icon": "/icons/automatic-responses.svg"
-              },
-              {
-                "title": "Draft Message Suggestions",
-                "description": "Let Kira AI draft responses for you to review and send manually.",
-                "icon": "/icons/draft-suggestions.svg"
-              },
-              {
-                "title": "Out of Office Hours",
-                "description": "Schedule when Kira AI is active and postpone responses to the next business day.",
-                "icon": "/icons/out-of-office.svg"
-              },
-              {
-                "title": "Human-like Delayed Responses",
-                "description": "Set a custom response delay to make interactions feel natural.",
-                "icon": "/icons/delayed-responses.svg"
-              },
-              {
-                "title": "Human-like Delayed Responses",
-                "description": "Set a custom response delay to make interactions feel natural.",
-                "icon": "/icons/delayed-responses.svg"
-              },
-              {
-                "title": "Human-like Delayed Responses",
-                "description": "Set a custom response delay to make interactions feel natural.",
-                "icon": "/icons/delayed-responses.svg"
-              },
-              {
-                "title": "Human-like Delayed Responses",
-                "description": "Set a custom response delay to make interactions feel natural.",
-                "icon": "/icons/delayed-responses.svg"
-              }
-            ]
-          }
-        },
-        {
-          "id": "pricing",
-          "type": "Pricing",
-          "content": {
-            "heading": "Choose Your Plan",
-            "pricingTiers": [
-              {
-                "tier": "Basic",
-                "price": "$19/month",
-                "features": [
-                  "50 AI responses per day",
-                  "Draft message suggestions",
-                  "Basic analytics"
-                ],
-                "ctaButton": {
-                  "text": "Start Basic",
-                  "link": "/signup/basic"
-                }
-              },
-              {
-                "tier": "Pro",
-                "price": "$49/month",
-                "features": [
-                  "Unlimited AI responses",
-                  "Advanced analytics",
-                  "Out of office scheduling",
-                  "Priority support"
-                ],
-                "ctaButton": {
-                  "text": "Go Pro",
-                  "link": "/signup/pro"
-                }
-              },
-              {
-                "tier": "Enterprise",
-                "price": "$99/month",
-                "features": [
-                  "Custom integrations",
-                  "Team collaboration tools",
-                  "Dedicated account manager"
-                ],
-                "ctaButton": {
-                  "text": "Contact Sales",
-                  "link": "/contact"
-                }
-              }
-            ]
-          }
+            {
+              "text": "Learn More",
+              "link": "/features"
+            }
+          ],
+          "image": "/images/cta-image.png"
         }
-      ]
-    }
+      }
+    ]
   }
-  
+}
